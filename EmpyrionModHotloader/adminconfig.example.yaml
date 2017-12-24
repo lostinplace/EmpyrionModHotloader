@@ -1,0 +1,5 @@
+﻿Elevated:
+- Id: 00000000000000000 # put the correct SteamID64 here
+  Permission: 3         # make this user a GameMaster, for example
+- Id: 11111111111111111
+  Permission: 6

@@ -1,0 +1,4 @@
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\obj\Debug\EmpyrionModHotloader.csprojResolveAssemblyReference.cache
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\obj\Debug\EmpyrionModHotloader.csproj.CoreCompileInputs.cache
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\obj\Debug\EmpyrionModHotloader.dll
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\obj\Debug\EmpyrionModHotloader.pdb

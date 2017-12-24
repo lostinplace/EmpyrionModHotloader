@@ -1,0 +1,16 @@
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate stub for Eleon.Modding.CmdId: type is a value type.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate stub for Eleon.Modding.StatisticsType: type is a value type.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate stub for Eleon.Modding.PdaStateChange: type is a value type.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate stub for Eleon.Modding.FactionInfo: type is a value type.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate stub for Eleon.Modding.GlobalStructureInfo: type is a value type.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate stub for Eleon.Modding.PVector3: type is a value type.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate stub for Eleon.Modding.ErrorType: type is a value type.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate stub for Eleon.Modding.ItemStack: type is a value type.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate stub for Eleon.Modding.PdaStateInfo: type is a value type.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate stub for Eleon.Modding.GameEventData: type is a value type.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate shim for Eleon.Modding.CmdId: type is an enum.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate shim for Eleon.Modding.ModInterface: type is an interface.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate shim for Eleon.Modding.ModGameAPI: type is an interface.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate shim for Eleon.Modding.StatisticsType: type is an enum.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate shim for Eleon.Modding.PdaStateChange: type is an enum.
+C:\Users\Chris\source\repos\EmpyrionModHotloader\EmpyrionModHotloader\Fakes\Mif.fakes : warning : Cannot generate shim for Eleon.Modding.ErrorType: type is an enum.

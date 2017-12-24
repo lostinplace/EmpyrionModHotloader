@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <RootNamespace>HotLoaderTests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FakeItEasy" Version="4.3.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
+    <PackageReference Include="xunit" Version="2.2.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="modFolderTest\dummy2\" />
+    <Folder Include="modFolderTest\toomany\" />
+    <Folder Include="modFolderTest\notamod\" />
+    <Folder Include="modFolderTest\dummy\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DummyMod2\DummyMod2.csproj" />
+    <ProjectReference Include="..\DummyMod\DummyMod.csproj" />
+    <ProjectReference Include="..\EmpyrionModHotloader\EmpyrionModHotloader.csproj" />
+    <ProjectReference Include="..\NoOp\NoOp.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Mif">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\Empyrion - Dedicated Server\EmpyrionDedicated_Data\Managed\Mif.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy &quot;$(OutDir)DummyMod.dll&quot; &quot;modFolderTest/dummy&quot;&#xD;&#xA;copy &quot;$(OutDir)DummyMod2.dll&quot; &quot;modFolderTest/dummy2&quot;&#xD;&#xA;copy &quot;$(OutDir)NoOp.dll&quot; &quot;modFolderTest/notamod&quot;&#xD;&#xA;copy &quot;$(OutDir)DummyMod.dll&quot; &quot;modFolderTest/toomany&quot;&#xD;&#xA;copy &quot;$(OutDir)DummyMod2.dll&quot; &quot;modFolderTest/toomany&quot;&#xD;&#xA;" />
+  </Target>
+
+</Project>

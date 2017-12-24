@@ -1,0 +1,5 @@
+C:\Users\Chris\source\repos\EmpyrionModHotloader\NoOp\bin\Release\NoOp.dll
+C:\Users\Chris\source\repos\EmpyrionModHotloader\NoOp\bin\Release\NoOp.pdb
+C:\Users\Chris\source\repos\EmpyrionModHotloader\NoOp\obj\Release\NoOp.csproj.CoreCompileInputs.cache
+C:\Users\Chris\source\repos\EmpyrionModHotloader\NoOp\obj\Release\NoOp.dll
+C:\Users\Chris\source\repos\EmpyrionModHotloader\NoOp\obj\Release\NoOp.pdb

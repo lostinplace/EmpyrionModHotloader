@@ -1,0 +1,6 @@
+﻿--- 
+HotloadModsFolder: mods
+verbose: false
+OfflinePattern: \.offline\.dll$
+additionalAdmins:
+    - 11111

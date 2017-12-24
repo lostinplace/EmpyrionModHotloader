@@ -1,0 +1,6 @@
+C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod\bin\Debug\DummyMod.dll
+C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod\bin\Debug\DummyMod.pdb
+C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod\obj\Debug\DummyMod.csprojResolveAssemblyReference.cache
+C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod\obj\Debug\DummyMod.csproj.CoreCompileInputs.cache
+C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod\obj\Debug\DummyMod.dll
+C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod\obj\Debug\DummyMod.pdb

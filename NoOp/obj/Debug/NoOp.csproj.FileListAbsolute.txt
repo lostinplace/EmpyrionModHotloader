@@ -1,0 +1,6 @@
+C:\Users\Chris\source\repos\EmpyrionModHotloader\NoOp\bin\Debug\NoOp.dll
+C:\Users\Chris\source\repos\EmpyrionModHotloader\NoOp\bin\Debug\NoOp.pdb
+C:\Users\Chris\source\repos\EmpyrionModHotloader\NoOp\obj\Debug\NoOp.csprojResolveAssemblyReference.cache
+C:\Users\Chris\source\repos\EmpyrionModHotloader\NoOp\obj\Debug\NoOp.csproj.CoreCompileInputs.cache
+C:\Users\Chris\source\repos\EmpyrionModHotloader\NoOp\obj\Debug\NoOp.dll
+C:\Users\Chris\source\repos\EmpyrionModHotloader\NoOp\obj\Debug\NoOp.pdb

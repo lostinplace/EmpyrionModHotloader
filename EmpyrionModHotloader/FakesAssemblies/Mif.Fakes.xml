@@ -1,0 +1,1808 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Mif.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Eleon.Modding.Fakes.ShimAlliancesFaction">
+            <summary>Shim type of Eleon.Modding.AlliancesFaction</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimAlliancesFaction.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimAlliancesFaction.#ctor(Eleon.Modding.AlliancesFaction)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimAlliancesFaction.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimAlliancesFaction.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimAlliancesFaction.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimAlliancesFaction.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimAlliancesFaction.Constructor">
+            <summary>Sets the shim of AlliancesFaction.AlliancesFaction()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimAlliancesFaction.ConstructorInt32Int32Boolean">
+            <summary>Sets the shim of AlliancesFaction.AlliancesFaction(Int32 nFaction1Id, Int32 nFaction2Id, Boolean nIsAllied)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimAlliancesTable">
+            <summary>Shim type of Eleon.Modding.AlliancesTable</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimAlliancesTable.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimAlliancesTable.#ctor(Eleon.Modding.AlliancesTable)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimAlliancesTable.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimAlliancesTable.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimAlliancesTable.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimAlliancesTable.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimAlliancesTable.Constructor">
+            <summary>Sets the shim of AlliancesTable.AlliancesTable()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimAlliancesTable.ConstructorHashSetOfInt32">
+            <summary>Sets the shim of AlliancesTable.AlliancesTable(HashSet`1&lt;Int32&gt; nAlliances)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimBannedPlayerData">
+            <summary>Shim type of Eleon.Modding.BannedPlayerData</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimBannedPlayerData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimBannedPlayerData.#ctor(Eleon.Modding.BannedPlayerData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimBannedPlayerData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimBannedPlayerData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimBannedPlayerData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimBannedPlayerData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimBannedPlayerData.Constructor">
+            <summary>Sets the shim of BannedPlayerData.BannedPlayerData()</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimBannedPlayerData.ShimBanEntry">
+            <summary>Shim type of Eleon.Modding.BannedPlayerData+BanEntry</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimBannedPlayerData.ShimBanEntry.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimBannedPlayerData.ShimBanEntry.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimBannedPlayerData.ShimBanEntry.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimBannedPlayerData.ShimBanEntry.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimBannedPlayerData.ShimBanEntry.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimBlueprintResources">
+            <summary>Shim type of Eleon.Modding.BlueprintResources</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimBlueprintResources.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimBlueprintResources.#ctor(Eleon.Modding.BlueprintResources)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimBlueprintResources.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimBlueprintResources.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimBlueprintResources.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimBlueprintResources.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimBlueprintResources.Constructor">
+            <summary>Sets the shim of BlueprintResources.BlueprintResources()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimBlueprintResources.ConstructorInt32ListOfItemStackBoolean">
+            <summary>Sets the shim of BlueprintResources.BlueprintResources(Int32 playerId, List`1&lt;ItemStack&gt; itemStacks, Boolean replaceExisting)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimChatInfo">
+            <summary>Shim type of Eleon.Modding.ChatInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimChatInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimChatInfo.#ctor(Eleon.Modding.ChatInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimChatInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimChatInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimChatInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimChatInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimChatInfo.Constructor">
+            <summary>Sets the shim of ChatInfo.ChatInfo()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimChatInfo.ConstructorInt32StringInt32Int32Byte">
+            <summary>Sets the shim of ChatInfo.ChatInfo(Int32 nPlayerId, String nMsg, Int32 nRecipientEntityId, Int32 nRecipientFactionId, Byte nType)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimConsoleCommandInfo">
+            <summary>Shim type of Eleon.Modding.ConsoleCommandInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimConsoleCommandInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimConsoleCommandInfo.#ctor(Eleon.Modding.ConsoleCommandInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimConsoleCommandInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimConsoleCommandInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimConsoleCommandInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimConsoleCommandInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimConsoleCommandInfo.Constructor">
+            <summary>Sets the shim of ConsoleCommandInfo.ConsoleCommandInfo()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimConsoleCommandInfo.ConstructorStringBooleanInt32">
+            <summary>Sets the shim of ConsoleCommandInfo.ConsoleCommandInfo(String nCommand, Boolean nAllowed, Int32 nPlayerEntityId)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimDediStats">
+            <summary>Shim type of Eleon.Modding.DediStats</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimDediStats.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimDediStats.#ctor(Eleon.Modding.DediStats)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimDediStats.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimDediStats.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimDediStats.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimDediStats.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimDediStats.Constructor">
+            <summary>Sets the shim of DediStats.DediStats()</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimEntityExportInfo">
+            <summary>Shim type of Eleon.Modding.EntityExportInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimEntityExportInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimEntityExportInfo.#ctor(Eleon.Modding.EntityExportInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimEntityExportInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimEntityExportInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimEntityExportInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimEntityExportInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimEntityExportInfo.Constructor">
+            <summary>Sets the shim of EntityExportInfo.EntityExportInfo()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimEntityExportInfo.ConstructorInt32StringBoolean">
+            <summary>Sets the shim of EntityExportInfo.EntityExportInfo(Int32 nId, String nFilePath, Boolean nIsForceUnload)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimEntityInfo">
+            <summary>Shim type of Eleon.Modding.EntityInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimEntityInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimEntityInfo.#ctor(Eleon.Modding.EntityInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimEntityInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimEntityInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimEntityInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimEntityInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimEntityInfo.Constructor">
+            <summary>Sets the shim of EntityInfo.EntityInfo()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimEntityInfo.ConstructorInt32Int32PVector3">
+            <summary>Sets the shim of EntityInfo.EntityInfo(Int32 nId, Int32 nType, PVector3 nPos)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimEntitySpawnInfo">
+            <summary>Shim type of Eleon.Modding.EntitySpawnInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimEntitySpawnInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimEntitySpawnInfo.#ctor(Eleon.Modding.EntitySpawnInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimEntitySpawnInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimEntitySpawnInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimEntitySpawnInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimEntitySpawnInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimEntitySpawnInfo.Constructor">
+            <summary>Sets the shim of EntitySpawnInfo.EntitySpawnInfo()</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimErrorInfo">
+            <summary>Shim type of Eleon.Modding.ErrorInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimErrorInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimErrorInfo.#ctor(Eleon.Modding.ErrorInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimErrorInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimErrorInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimErrorInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimErrorInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimErrorInfo.Constructor">
+            <summary>Sets the shim of ErrorInfo.ErrorInfo()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimErrorInfo.ConstructorErrorType">
+            <summary>Sets the shim of ErrorInfo.ErrorInfo(ErrorType nErrorType)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimFactionChangeInfo">
+            <summary>Shim type of Eleon.Modding.FactionChangeInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimFactionChangeInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimFactionChangeInfo.#ctor(Eleon.Modding.FactionChangeInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimFactionChangeInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimFactionChangeInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimFactionChangeInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimFactionChangeInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimFactionChangeInfo.Constructor">
+            <summary>Sets the shim of FactionChangeInfo.FactionChangeInfo()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimFactionChangeInfo.ConstructorInt32ByteInt32">
+            <summary>Sets the shim of FactionChangeInfo.FactionChangeInfo(Int32 nId, Byte nFactionGroup, Int32 nFactionId)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimFactionInfo">
+            <summary>Shim type of Eleon.Modding.FactionInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimFactionInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimFactionInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimFactionInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimFactionInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimFactionInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimFactionInfoList">
+            <summary>Shim type of Eleon.Modding.FactionInfoList</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimFactionInfoList.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimFactionInfoList.#ctor(Eleon.Modding.FactionInfoList)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimFactionInfoList.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimFactionInfoList.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimFactionInfoList.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimFactionInfoList.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimFactionInfoList.Constructor">
+            <summary>Sets the shim of FactionInfoList.FactionInfoList()</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimGameEventData">
+            <summary>Shim type of Eleon.Modding.GameEventData</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimGameEventData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimGameEventData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimGameEventData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimGameEventData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimGameEventData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimGlobalStructureInfo">
+            <summary>Shim type of Eleon.Modding.GlobalStructureInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimGlobalStructureInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimGlobalStructureInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimGlobalStructureInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimGlobalStructureInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimGlobalStructureInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimGlobalStructureList">
+            <summary>Shim type of Eleon.Modding.GlobalStructureList</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimGlobalStructureList.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimGlobalStructureList.#ctor(Eleon.Modding.GlobalStructureList)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimGlobalStructureList.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimGlobalStructureList.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimGlobalStructureList.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimGlobalStructureList.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimGlobalStructureList.Constructor">
+            <summary>Sets the shim of GlobalStructureList.GlobalStructureList()</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimId">
+            <summary>Shim type of Eleon.Modding.Id</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimId.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimId.#ctor(Eleon.Modding.Id)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimId.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimId.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimId.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimId.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimId.Constructor">
+            <summary>Sets the shim of Id.Id()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimId.ConstructorInt32">
+            <summary>Sets the shim of Id.Id(Int32 nId)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdCredits">
+            <summary>Shim type of Eleon.Modding.IdCredits</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdCredits.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdCredits.#ctor(Eleon.Modding.IdCredits)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdCredits.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdCredits.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdCredits.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdCredits.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdCredits.Constructor">
+            <summary>Sets the shim of IdCredits.IdCredits()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdCredits.ConstructorInt32Double">
+            <summary>Sets the shim of IdCredits.IdCredits(Int32 nId, Double nCredits)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdItemStack">
+            <summary>Shim type of Eleon.Modding.IdItemStack</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdItemStack.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdItemStack.#ctor(Eleon.Modding.IdItemStack)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdItemStack.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdItemStack.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdItemStack.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdItemStack.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdItemStack.Constructor">
+            <summary>Sets the shim of IdItemStack.IdItemStack()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdItemStack.ConstructorInt32ItemStack">
+            <summary>Sets the shim of IdItemStack.IdItemStack(Int32 nId, ItemStack nItemStack)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdList">
+            <summary>Shim type of Eleon.Modding.IdList</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdList.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdList.#ctor(Eleon.Modding.IdList)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdList.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdList.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdList.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdList.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdList.Constructor">
+            <summary>Sets the shim of IdList.IdList()</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdMsgPrio">
+            <summary>Shim type of Eleon.Modding.IdMsgPrio</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdMsgPrio.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdMsgPrio.#ctor(Eleon.Modding.IdMsgPrio)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdMsgPrio.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdMsgPrio.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdMsgPrio.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdMsgPrio.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdMsgPrio.Constructor">
+            <summary>Sets the shim of IdMsgPrio.IdMsgPrio()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdMsgPrio.ConstructorInt32StringByteSingle">
+            <summary>Sets the shim of IdMsgPrio.IdMsgPrio(Int32 nId, String nMsg, Byte nPrio, Single nTime)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdPlayfield">
+            <summary>Shim type of Eleon.Modding.IdPlayfield</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPlayfield.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPlayfield.#ctor(Eleon.Modding.IdPlayfield)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdPlayfield.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPlayfield.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPlayfield.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdPlayfield.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdPlayfield.Constructor">
+            <summary>Sets the shim of IdPlayfield.IdPlayfield()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdPlayfield.ConstructorInt32String">
+            <summary>Sets the shim of IdPlayfield.IdPlayfield(Int32 nId, String nPlayfield)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdPlayfieldName">
+            <summary>Shim type of Eleon.Modding.IdPlayfieldName</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPlayfieldName.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPlayfieldName.#ctor(Eleon.Modding.IdPlayfieldName)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdPlayfieldName.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPlayfieldName.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPlayfieldName.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdPlayfieldName.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdPlayfieldName.Constructor">
+            <summary>Sets the shim of IdPlayfieldName.IdPlayfieldName()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdPlayfieldName.ConstructorInt32StringString">
+            <summary>Sets the shim of IdPlayfieldName.IdPlayfieldName(Int32 nId, String nPlayfield, String nName)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdPlayfieldPositionRotation">
+            <summary>Shim type of Eleon.Modding.IdPlayfieldPositionRotation</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPlayfieldPositionRotation.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPlayfieldPositionRotation.#ctor(Eleon.Modding.IdPlayfieldPositionRotation)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdPlayfieldPositionRotation.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPlayfieldPositionRotation.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPlayfieldPositionRotation.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdPlayfieldPositionRotation.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdPlayfieldPositionRotation.Constructor">
+            <summary>Sets the shim of IdPlayfieldPositionRotation.IdPlayfieldPositionRotation()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdPlayfieldPositionRotation.ConstructorInt32StringPVector3PVector3">
+            <summary>Sets the shim of IdPlayfieldPositionRotation.IdPlayfieldPositionRotation(Int32 nId, String nPlayfield, PVector3 nPos, PVector3 nRot)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdPositionRotation">
+            <summary>Shim type of Eleon.Modding.IdPositionRotation</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPositionRotation.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPositionRotation.#ctor(Eleon.Modding.IdPositionRotation)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdPositionRotation.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPositionRotation.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdPositionRotation.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdPositionRotation.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdPositionRotation.Constructor">
+            <summary>Sets the shim of IdPositionRotation.IdPositionRotation()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdPositionRotation.ConstructorInt32PVector3PVector3">
+            <summary>Sets the shim of IdPositionRotation.IdPositionRotation(Int32 nId, PVector3 nPos, PVector3 nRot)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdStructureBlockInfo">
+            <summary>Shim type of Eleon.Modding.IdStructureBlockInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdStructureBlockInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdStructureBlockInfo.#ctor(Eleon.Modding.IdStructureBlockInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimIdStructureBlockInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdStructureBlockInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimIdStructureBlockInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdStructureBlockInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdStructureBlockInfo.Constructor">
+            <summary>Sets the shim of IdStructureBlockInfo.IdStructureBlockInfo()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimIdStructureBlockInfo.ConstructorInt32DictionaryOfInt32Int32">
+            <summary>Sets the shim of IdStructureBlockInfo.IdStructureBlockInfo(Int32 nId, Dictionary`2&lt;Int32,Int32&gt; nBblockStatistics)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimInventory">
+            <summary>Shim type of Eleon.Modding.Inventory</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimInventory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimInventory.#ctor(Eleon.Modding.Inventory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimInventory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimInventory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimInventory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimInventory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimInventory.Constructor">
+            <summary>Sets the shim of Inventory.Inventory()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimInventory.ConstructorInt32ItemStackArrayItemStackArray">
+            <summary>Sets the shim of Inventory.Inventory(Int32 nPlayerId, ItemStack[] nToolbelt, ItemStack[] nBag)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimItemExchangeInfo">
+            <summary>Shim type of Eleon.Modding.ItemExchangeInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimItemExchangeInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimItemExchangeInfo.#ctor(Eleon.Modding.ItemExchangeInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimItemExchangeInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimItemExchangeInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimItemExchangeInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimItemExchangeInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimItemExchangeInfo.Constructor">
+            <summary>Sets the shim of ItemExchangeInfo.ItemExchangeInfo()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimItemExchangeInfo.ConstructorInt32StringStringStringItemStackArray">
+            <summary>Sets the shim of ItemExchangeInfo.ItemExchangeInfo(Int32 nId, String nTitle, String nDesc, String nButtonText, ItemStack[] nItems)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimItemStack">
+            <summary>Shim type of Eleon.Modding.ItemStack</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimItemStack.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimItemStack.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimItemStack.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimItemStack.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimItemStack.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPString">
+            <summary>Shim type of Eleon.Modding.PString</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPString.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPString.#ctor(Eleon.Modding.PString)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPString.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPString.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPString.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPString.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPString.Constructor">
+            <summary>Sets the shim of PString.PString()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPString.ConstructorString">
+            <summary>Sets the shim of PString.PString(String nString)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPVector3">
+            <summary>Shim type of Eleon.Modding.PVector3</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPVector3.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPVector3.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPVector3.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPVector3.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPVector3.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPdaStateInfo">
+            <summary>Shim type of Eleon.Modding.PdaStateInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPdaStateInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPdaStateInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPdaStateInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPdaStateInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPdaStateInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPlayerInfo">
+            <summary>Shim type of Eleon.Modding.PlayerInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayerInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayerInfo.#ctor(Eleon.Modding.PlayerInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPlayerInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayerInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayerInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayerInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayerInfo.Constructor">
+            <summary>Sets the shim of PlayerInfo.PlayerInfo()</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPlayerInfoSet">
+            <summary>Shim type of Eleon.Modding.PlayerInfoSet</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayerInfoSet.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayerInfoSet.#ctor(Eleon.Modding.PlayerInfoSet)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPlayerInfoSet.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayerInfoSet.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayerInfoSet.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayerInfoSet.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayerInfoSet.Constructor">
+            <summary>Sets the shim of PlayerInfoSet.PlayerInfoSet()</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPlayfieldEntityList">
+            <summary>Shim type of Eleon.Modding.PlayfieldEntityList</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldEntityList.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldEntityList.#ctor(Eleon.Modding.PlayfieldEntityList)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPlayfieldEntityList.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldEntityList.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldEntityList.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayfieldEntityList.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayfieldEntityList.Constructor">
+            <summary>Sets the shim of PlayfieldEntityList.PlayfieldEntityList()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayfieldEntityList.ConstructorStringListOfEntityInfo">
+            <summary>Sets the shim of PlayfieldEntityList.PlayfieldEntityList(String nPlayield, List`1&lt;EntityInfo&gt; nEntities)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPlayfieldList">
+            <summary>Shim type of Eleon.Modding.PlayfieldList</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldList.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldList.#ctor(Eleon.Modding.PlayfieldList)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPlayfieldList.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldList.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldList.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayfieldList.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayfieldList.Constructor">
+            <summary>Sets the shim of PlayfieldList.PlayfieldList()</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPlayfieldLoad">
+            <summary>Shim type of Eleon.Modding.PlayfieldLoad</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldLoad.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldLoad.#ctor(Eleon.Modding.PlayfieldLoad)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPlayfieldLoad.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldLoad.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldLoad.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayfieldLoad.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayfieldLoad.Constructor">
+            <summary>Sets the shim of PlayfieldLoad.PlayfieldLoad()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayfieldLoad.ConstructorSingleStringInt32">
+            <summary>Sets the shim of PlayfieldLoad.PlayfieldLoad(Single nSecs, String nPlayefield, Int32 nProcessId)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPlayfieldStats">
+            <summary>Shim type of Eleon.Modding.PlayfieldStats</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldStats.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldStats.#ctor(Eleon.Modding.PlayfieldStats)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimPlayfieldStats.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldStats.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimPlayfieldStats.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayfieldStats.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimPlayfieldStats.Constructor">
+            <summary>Sets the shim of PlayfieldStats.PlayfieldStats()</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimStatisticsParam">
+            <summary>Shim type of Eleon.Modding.StatisticsParam</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimStatisticsParam.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimStatisticsParam.#ctor(Eleon.Modding.StatisticsParam)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimStatisticsParam.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimStatisticsParam.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimStatisticsParam.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimStatisticsParam.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimStatisticsParam.Constructor">
+            <summary>Sets the shim of StatisticsParam.StatisticsParam()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimStatisticsParam.ConstructorStatisticsTypeInt32Int32Int32Int32">
+            <summary>Sets the shim of StatisticsParam.StatisticsParam(StatisticsType nType, Int32 nInt1, Int32 nInt2, Int32 nInt3, Int32 nInt4)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimTraderNPCItemSoldInfo">
+            <summary>Shim type of Eleon.Modding.TraderNPCItemSoldInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimTraderNPCItemSoldInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimTraderNPCItemSoldInfo.#ctor(Eleon.Modding.TraderNPCItemSoldInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.ShimTraderNPCItemSoldInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimTraderNPCItemSoldInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.ShimTraderNPCItemSoldInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimTraderNPCItemSoldInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimTraderNPCItemSoldInfo.Constructor">
+            <summary>Sets the shim of TraderNPCItemSoldInfo.TraderNPCItemSoldInfo()</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.ShimTraderNPCItemSoldInfo.ConstructorInt32Int32StringInt32Int32Int32Int32">
+            <summary>Sets the shim of TraderNPCItemSoldInfo.TraderNPCItemSoldInfo(Int32 nPlayerEntityId, Int32 nTraderEntityId, String nTraderType, Int32 nStructEntityId, Int32 nBoughtItemId, Int32 nBoughtItemCount, Int32 nBoughtItemPrice)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubAlliancesFaction">
+            <summary>Stub type of Eleon.Modding.AlliancesFaction</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubAlliancesFaction.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubAlliancesFaction.#ctor(System.Int32,System.Int32,System.Boolean)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubAlliancesFaction.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubAlliancesFaction.InitializeStub">
+            <summary>Initializes a new instance of type StubAlliancesFaction</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubAlliancesFaction.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubAlliancesFaction.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubAlliancesTable">
+            <summary>Stub type of Eleon.Modding.AlliancesTable</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubAlliancesTable.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubAlliancesTable.#ctor(System.Collections.Generic.HashSet{System.Int32})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubAlliancesTable.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubAlliancesTable.InitializeStub">
+            <summary>Initializes a new instance of type StubAlliancesTable</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubAlliancesTable.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubAlliancesTable.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubBannedPlayerData">
+            <summary>Stub type of Eleon.Modding.BannedPlayerData</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubBannedPlayerData.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubBannedPlayerData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubBannedPlayerData.InitializeStub">
+            <summary>Initializes a new instance of type StubBannedPlayerData</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubBannedPlayerData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubBannedPlayerData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubBlueprintResources">
+            <summary>Stub type of Eleon.Modding.BlueprintResources</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubBlueprintResources.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubBlueprintResources.#ctor(System.Int32,System.Collections.Generic.List{Eleon.Modding.ItemStack},System.Boolean)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubBlueprintResources.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubBlueprintResources.InitializeStub">
+            <summary>Initializes a new instance of type StubBlueprintResources</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubBlueprintResources.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubBlueprintResources.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubChatInfo">
+            <summary>Stub type of Eleon.Modding.ChatInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubChatInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubChatInfo.#ctor(System.Int32,System.String,System.Int32,System.Int32,System.Byte)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubChatInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubChatInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubChatInfo</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubChatInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubChatInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubConsoleCommandInfo">
+            <summary>Stub type of Eleon.Modding.ConsoleCommandInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubConsoleCommandInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubConsoleCommandInfo.#ctor(System.String,System.Boolean,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubConsoleCommandInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubConsoleCommandInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubConsoleCommandInfo</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubConsoleCommandInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubConsoleCommandInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubDediStats">
+            <summary>Stub type of Eleon.Modding.DediStats</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubDediStats.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubDediStats.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubDediStats.InitializeStub">
+            <summary>Initializes a new instance of type StubDediStats</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubDediStats.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubDediStats.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubEntityExportInfo">
+            <summary>Stub type of Eleon.Modding.EntityExportInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubEntityExportInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubEntityExportInfo.#ctor(System.Int32,System.String,System.Boolean)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubEntityExportInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubEntityExportInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubEntityExportInfo</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubEntityExportInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubEntityExportInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubEntityInfo">
+            <summary>Stub type of Eleon.Modding.EntityInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubEntityInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubEntityInfo.#ctor(System.Int32,System.Int32,Eleon.Modding.PVector3)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubEntityInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubEntityInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubEntityInfo</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubEntityInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubEntityInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubEntitySpawnInfo">
+            <summary>Stub type of Eleon.Modding.EntitySpawnInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubEntitySpawnInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubEntitySpawnInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubEntitySpawnInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubEntitySpawnInfo</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubEntitySpawnInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubEntitySpawnInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubErrorInfo">
+            <summary>Stub type of Eleon.Modding.ErrorInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubErrorInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubErrorInfo.#ctor(Eleon.Modding.ErrorType)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubErrorInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubErrorInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubErrorInfo</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubErrorInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubErrorInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubFactionChangeInfo">
+            <summary>Stub type of Eleon.Modding.FactionChangeInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubFactionChangeInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubFactionChangeInfo.#ctor(System.Int32,System.Byte,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubFactionChangeInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubFactionChangeInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubFactionChangeInfo</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubFactionChangeInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubFactionChangeInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubFactionInfoList">
+            <summary>Stub type of Eleon.Modding.FactionInfoList</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubFactionInfoList.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubFactionInfoList.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubFactionInfoList.InitializeStub">
+            <summary>Initializes a new instance of type StubFactionInfoList</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubFactionInfoList.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubFactionInfoList.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubGlobalStructureList">
+            <summary>Stub type of Eleon.Modding.GlobalStructureList</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubGlobalStructureList.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubGlobalStructureList.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubGlobalStructureList.InitializeStub">
+            <summary>Initializes a new instance of type StubGlobalStructureList</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubGlobalStructureList.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubGlobalStructureList.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubId">
+            <summary>Stub type of Eleon.Modding.Id</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubId.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubId.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubId.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubId.InitializeStub">
+            <summary>Initializes a new instance of type StubId</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubId.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubId.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubIdCredits">
+            <summary>Stub type of Eleon.Modding.IdCredits</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdCredits.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdCredits.#ctor(System.Int32,System.Double)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdCredits.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdCredits.InitializeStub">
+            <summary>Initializes a new instance of type StubIdCredits</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdCredits.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdCredits.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubIdItemStack">
+            <summary>Stub type of Eleon.Modding.IdItemStack</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdItemStack.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdItemStack.#ctor(System.Int32,Eleon.Modding.ItemStack)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdItemStack.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdItemStack.InitializeStub">
+            <summary>Initializes a new instance of type StubIdItemStack</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdItemStack.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdItemStack.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubIdList">
+            <summary>Stub type of Eleon.Modding.IdList</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdList.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdList.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdList.InitializeStub">
+            <summary>Initializes a new instance of type StubIdList</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdList.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdList.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubIdMsgPrio">
+            <summary>Stub type of Eleon.Modding.IdMsgPrio</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdMsgPrio.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdMsgPrio.#ctor(System.Int32,System.String,System.Byte,System.Single)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdMsgPrio.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdMsgPrio.InitializeStub">
+            <summary>Initializes a new instance of type StubIdMsgPrio</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdMsgPrio.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdMsgPrio.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubIdPlayfield">
+            <summary>Stub type of Eleon.Modding.IdPlayfield</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdPlayfield.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdPlayfield.#ctor(System.Int32,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdPlayfield.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdPlayfield.InitializeStub">
+            <summary>Initializes a new instance of type StubIdPlayfield</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdPlayfield.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdPlayfield.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubIdPlayfieldName">
+            <summary>Stub type of Eleon.Modding.IdPlayfieldName</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdPlayfieldName.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdPlayfieldName.#ctor(System.Int32,System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdPlayfieldName.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdPlayfieldName.InitializeStub">
+            <summary>Initializes a new instance of type StubIdPlayfieldName</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdPlayfieldName.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdPlayfieldName.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubIdPlayfieldPositionRotation">
+            <summary>Stub type of Eleon.Modding.IdPlayfieldPositionRotation</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdPlayfieldPositionRotation.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdPlayfieldPositionRotation.#ctor(System.Int32,System.String,Eleon.Modding.PVector3,Eleon.Modding.PVector3)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdPlayfieldPositionRotation.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdPlayfieldPositionRotation.InitializeStub">
+            <summary>Initializes a new instance of type StubIdPlayfieldPositionRotation</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdPlayfieldPositionRotation.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdPlayfieldPositionRotation.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubIdPositionRotation">
+            <summary>Stub type of Eleon.Modding.IdPositionRotation</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdPositionRotation.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdPositionRotation.#ctor(System.Int32,Eleon.Modding.PVector3,Eleon.Modding.PVector3)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdPositionRotation.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdPositionRotation.InitializeStub">
+            <summary>Initializes a new instance of type StubIdPositionRotation</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdPositionRotation.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdPositionRotation.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubIdStructureBlockInfo">
+            <summary>Stub type of Eleon.Modding.IdStructureBlockInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdStructureBlockInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdStructureBlockInfo.#ctor(System.Int32,System.Collections.Generic.Dictionary{System.Int32,System.Int32})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdStructureBlockInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubIdStructureBlockInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubIdStructureBlockInfo</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdStructureBlockInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubIdStructureBlockInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubInventory">
+            <summary>Stub type of Eleon.Modding.Inventory</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubInventory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubInventory.#ctor(System.Int32,Eleon.Modding.ItemStack[],Eleon.Modding.ItemStack[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubInventory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubInventory.InitializeStub">
+            <summary>Initializes a new instance of type StubInventory</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubInventory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubInventory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubItemExchangeInfo">
+            <summary>Stub type of Eleon.Modding.ItemExchangeInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubItemExchangeInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubItemExchangeInfo.#ctor(System.Int32,System.String,System.String,System.String,Eleon.Modding.ItemStack[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubItemExchangeInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubItemExchangeInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubItemExchangeInfo</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubItemExchangeInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubItemExchangeInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubModGameAPI">
+            <summary>Stub type of Eleon.Modding.ModGameAPI</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubModGameAPI.#ctor">
+            <summary>Initializes a new instance of type StubModGameAPI</summary>
+        </member>
+        <member name="F:Eleon.Modding.Fakes.StubModGameAPI.Console_WriteString">
+            <summary>Sets the stub of ModGameAPI.Console_Write(String txt)</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubModGameAPI.Eleon#Modding#ModGameAPI#Console_Write(System.String)">
+            <summary>Sets the stub of ModGameAPI.Console_Write(String txt)</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubModGameAPI.Eleon#Modding#ModGameAPI#Game_GetTickTime">
+            <summary>Sets the stub of ModGameAPI.Game_GetTickTime()</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubModGameAPI.Eleon#Modding#ModGameAPI#Game_Request(Eleon.Modding.CmdId,System.UInt16,System.Object)">
+            <summary>Sets the stub of ModGameAPI.Game_Request(CmdId reqId, UInt16 seqNr, Object data)</summary>
+        </member>
+        <member name="F:Eleon.Modding.Fakes.StubModGameAPI.Game_GetTickTime">
+            <summary>Sets the stub of ModGameAPI.Game_GetTickTime()</summary>
+        </member>
+        <member name="F:Eleon.Modding.Fakes.StubModGameAPI.Game_RequestCmdIdUInt16Object">
+            <summary>Sets the stub of ModGameAPI.Game_Request(CmdId reqId, UInt16 seqNr, Object data)</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubModInterface">
+            <summary>Stub type of Eleon.Modding.ModInterface</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubModInterface.#ctor">
+            <summary>Initializes a new instance of type StubModInterface</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubModInterface.Eleon#Modding#ModInterface#Game_Event(Eleon.Modding.CmdId,System.UInt16,System.Object)">
+            <summary>Sets the stub of ModInterface.Game_Event(CmdId eventId, UInt16 seqNr, Object data)</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubModInterface.Eleon#Modding#ModInterface#Game_Exit">
+            <summary>Sets the stub of ModInterface.Game_Exit()</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubModInterface.Eleon#Modding#ModInterface#Game_Start(Eleon.Modding.ModGameAPI)">
+            <summary>Sets the stub of ModInterface.Game_Start(ModGameAPI dediAPI)</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubModInterface.Eleon#Modding#ModInterface#Game_Update">
+            <summary>Sets the stub of ModInterface.Game_Update()</summary>
+        </member>
+        <member name="F:Eleon.Modding.Fakes.StubModInterface.Game_EventCmdIdUInt16Object">
+            <summary>Sets the stub of ModInterface.Game_Event(CmdId eventId, UInt16 seqNr, Object data)</summary>
+        </member>
+        <member name="F:Eleon.Modding.Fakes.StubModInterface.Game_Exit">
+            <summary>Sets the stub of ModInterface.Game_Exit()</summary>
+        </member>
+        <member name="F:Eleon.Modding.Fakes.StubModInterface.Game_StartModGameAPI">
+            <summary>Sets the stub of ModInterface.Game_Start(ModGameAPI dediAPI)</summary>
+        </member>
+        <member name="F:Eleon.Modding.Fakes.StubModInterface.Game_Update">
+            <summary>Sets the stub of ModInterface.Game_Update()</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubPString">
+            <summary>Stub type of Eleon.Modding.PString</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPString.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPString.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPString.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPString.InitializeStub">
+            <summary>Initializes a new instance of type StubPString</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPString.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPString.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubPlayerInfo">
+            <summary>Stub type of Eleon.Modding.PlayerInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayerInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayerInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayerInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubPlayerInfo</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayerInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayerInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubPlayerInfoSet">
+            <summary>Stub type of Eleon.Modding.PlayerInfoSet</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayerInfoSet.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayerInfoSet.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayerInfoSet.InitializeStub">
+            <summary>Initializes a new instance of type StubPlayerInfoSet</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayerInfoSet.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayerInfoSet.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubPlayfieldEntityList">
+            <summary>Stub type of Eleon.Modding.PlayfieldEntityList</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayfieldEntityList.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayfieldEntityList.#ctor(System.String,System.Collections.Generic.List{Eleon.Modding.EntityInfo})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayfieldEntityList.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayfieldEntityList.InitializeStub">
+            <summary>Initializes a new instance of type StubPlayfieldEntityList</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayfieldEntityList.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayfieldEntityList.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubPlayfieldList">
+            <summary>Stub type of Eleon.Modding.PlayfieldList</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayfieldList.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayfieldList.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayfieldList.InitializeStub">
+            <summary>Initializes a new instance of type StubPlayfieldList</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayfieldList.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayfieldList.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubPlayfieldLoad">
+            <summary>Stub type of Eleon.Modding.PlayfieldLoad</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayfieldLoad.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayfieldLoad.#ctor(System.Single,System.String,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayfieldLoad.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayfieldLoad.InitializeStub">
+            <summary>Initializes a new instance of type StubPlayfieldLoad</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayfieldLoad.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayfieldLoad.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubPlayfieldStats">
+            <summary>Stub type of Eleon.Modding.PlayfieldStats</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayfieldStats.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayfieldStats.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubPlayfieldStats.InitializeStub">
+            <summary>Initializes a new instance of type StubPlayfieldStats</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayfieldStats.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubPlayfieldStats.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubStatisticsParam">
+            <summary>Stub type of Eleon.Modding.StatisticsParam</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubStatisticsParam.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubStatisticsParam.#ctor(Eleon.Modding.StatisticsType,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubStatisticsParam.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubStatisticsParam.InitializeStub">
+            <summary>Initializes a new instance of type StubStatisticsParam</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubStatisticsParam.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubStatisticsParam.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Eleon.Modding.Fakes.StubTraderNPCItemSoldInfo">
+            <summary>Stub type of Eleon.Modding.TraderNPCItemSoldInfo</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubTraderNPCItemSoldInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubTraderNPCItemSoldInfo.#ctor(System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubTraderNPCItemSoldInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Eleon.Modding.Fakes.StubTraderNPCItemSoldInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubTraderNPCItemSoldInfo</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubTraderNPCItemSoldInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Eleon.Modding.Fakes.StubTraderNPCItemSoldInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
