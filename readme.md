@@ -20,6 +20,18 @@ Once you've copied your mod into the `watched` folder, log into your server usin
 
 That will list the mods that are currently being watched.  Note that the first column is ID of the mod, to activate it type, `\mod activate {ID}` where `{ID}` is the id of the mod you want to activate.  to deactivate a mod type, `\mod deactivate {ID}` and to completely flush the mod, type `\mod flush {ID}`.
 
+### Q:  How do I add a new mod to a running server?
+
+Just copy the `.dll` file into the `watched` folder, and that will load the mod in an inactive state. to start it, just use the `\mod activate` command as described above.
+
+### Q:  Will I have to manually start mods after a server restart?
+
+Nope. If the server starts with mods in the `watched` folder, they will automatically start when the server starts.
+
+### Q: What if I don't want a mod to be active automatically when the server starts?
+
+That's easy, just rename the `.dll` file in the `watched` folder to `{filename}.offline.dll` where `{filename}` is the name of the file before the extension.  The mod will be loaded, but will be listed as inactive.
+
 ### Q: Can your UI be.... better?
 
 I would love to make a better UI for you, but this is kind of just the current state of UIs in Empyrion's mod API as I understand it.  If you've got a better idea, let me know, or better yet, submit a pull request!
