@@ -1,7 +1,5 @@
 C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod2\bin\Debug\DummyMod2.dll
 C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod2\bin\Debug\DummyMod2.pdb
-C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod2\bin\Debug\Mif.dll
-C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod2\bin\Debug\protobuf-net.dll
 C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod2\obj\Debug\DummyMod2.csprojResolveAssemblyReference.cache
 C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod2\obj\Debug\DummyMod2.csproj.CoreCompileInputs.cache
 C:\Users\Chris\source\repos\EmpyrionModHotloader\DummyMod2\obj\Debug\DummyMod2.dll

@@ -41,13 +41,25 @@ namespace EmpyrionModHotloader
 
     public class AdminConfig
     {
-        public List<AdminRecord> Elevated { get; set; }
+        public List<AdminRecord> Elevated { get; set; } = new List<AdminRecord>();
 
         public static AdminConfig FromYAML(string input)
         {
             var deserializer = new DeserializerBuilder().Build();
             var result = deserializer.Deserialize<AdminConfig>(input);
             return result;
+        }
+
+        private static string adminConfigPath = @"Saves\adminconfig.yaml";
+
+        public static AdminConfig FromGameConfig()
+        {
+            var path = Path.GetFullPath(adminConfigPath);
+            if (!File.Exists(path)) return default(AdminConfig);
+
+            var configText = File.ReadAllText(path);
+            return FromYAML(configText);
+
         }
     }
 }

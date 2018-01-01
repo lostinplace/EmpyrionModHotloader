@@ -18,18 +18,18 @@ namespace DummyMod2
 
         public void Game_Exit()
         {
-            api.Console_Write("exiting dummy 1");
+            api.Console_Write("exiting dummy 2");
         }
 
         public void Game_Start(ModGameAPI dediAPI)
         {
             api = dediAPI;
-            api.Console_Write("starting dummy 1");
+            api.Console_Write("starting dummy 2");
         }
 
         public void Game_Update()
         {
-            api.Console_Write("updating dummy 1");
+            api.Console_Write("updating dummy 2");
         }
     }
 }

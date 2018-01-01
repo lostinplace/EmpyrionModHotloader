@@ -1,6 +1,4 @@
 ﻿--- 
-HotloadModsFolder: mods
+HotloadModsFolder: watched
 verbose: false
 OfflinePattern: \.offline\.dll$
-additionalAdmins:
-    - 11111

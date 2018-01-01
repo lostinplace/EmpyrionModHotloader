@@ -11,13 +11,11 @@ C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\bin\Debug\netcor
 C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\bin\Debug\netcoreapp2.0\EmpyrionModHotloader.dll
 C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\bin\Debug\netcoreapp2.0\Mif.dll
 C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\bin\Debug\netcoreapp2.0\NoOp.dll
-C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\bin\Debug\netcoreapp2.0\YamlDotNet.dll
 C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\bin\Debug\netcoreapp2.0\protobuf-net.dll
 C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\bin\Debug\netcoreapp2.0\DummyMod2.pdb
 C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\bin\Debug\netcoreapp2.0\DummyMod.pdb
 C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\bin\Debug\netcoreapp2.0\EmpyrionModHotloader.pdb
 C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\bin\Debug\netcoreapp2.0\NoOp.pdb
-C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\bin\Debug\netcoreapp2.0\YamlDotNet.xml
 C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\obj\Debug\netcoreapp2.0\HotLoaderTests.csprojResolveAssemblyReference.cache
 C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\obj\Debug\netcoreapp2.0\HotLoaderTests.csproj.CoreCompileInputs.cache
 C:\Users\Chris\source\repos\EmpyrionModHotloader\HotLoaderTests\obj\Debug\netcoreapp2.0\HotLoaderTests.AssemblyInfoInputs.cache

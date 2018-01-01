@@ -41,6 +41,9 @@
     </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EmpyrionMessageBroker">
+      <HintPath>..\dependencies\EmpyrionMessageBroker.dll</HintPath>
+    </Reference>
     <Reference Include="Mif">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\Empyrion - Dedicated Server\EmpyrionDedicated_Data\Managed\Mif.dll</HintPath>
       <Private>False</Private>
@@ -84,7 +87,9 @@
   <PropertyGroup>
     <PostBuildEvent>copy "$(TargetPath)" "$(SolutionDir)Release\Hotloader"
 copy "$(TargetPath)" "$(SolutionDir)Release\Hotloader"
-copy "$(ProjectDir)settings.example.yaml" "$(SolutionDir)Release\Hotloader\settings.yaml"</PostBuildEvent>
+copy "$(ProjectDir)settings.example.yaml" "$(SolutionDir)Release\Hotloader\settings.yaml"
+
+xcopy /S /Y "$(SolutionDir)Release\Hotloader" "C:\Program Files (x86)\Steam\SteamApps\common\Empyrion - Dedicated Server\Content\Mods\Hotloader"</PostBuildEvent>
   </PropertyGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
